@@ -1,0 +1,35 @@
+.bigContainer{
+    display: inline-flex;
+    width: 60%;
+    background-color: rgb(159, 159, 60);
+    margin-left: 20%;
+}
+
+/* #blepButton{
+    width: 120px;
+    height: 60px;
+} */
+
+
+
+.togglePic{
+    width: 33%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+img {
+
+    max-width: 100%;
+}
+img:hover{
+    cursor: pointer;
+}
+
+.blepTest{
+    background-color: crimson;
+}
+
+.hideStuff{
+    display:none;
+}
