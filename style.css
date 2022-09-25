@@ -1,6 +1,8 @@
 .bigContainer{
-    display: inline-flex;
+    display:inline-flex;
     width: 60%;
+    min-width: 600px;
+    min-height: 200px;
     background-color: rgb(159, 159, 60);
     margin-left: 20%;
 }
@@ -14,10 +16,14 @@
 
 .togglePic{
     width: 33%;
+    min-width: 100px;
     border-style: solid;
     border-width: 1px;
 }
 
+.togglePic:hover{
+    cursor: pointer;
+}
 img {
 
     max-width: 100%;
